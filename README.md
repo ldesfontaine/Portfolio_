@@ -1,5 +1,4 @@
-
-# Portfolio
+# - Portfolio
 
 Ce portfolio a été créé à l'aide du framework Angular pour le front-end. Vous pouvez visiter le portfolio en suivant l'URL suivante : https://portfolio.ldesfontaine.me.
 
