@@ -1,0 +1,336 @@
+.body{
+  padding: 7vh 9vw 0vh 9vw; // bas gauche haut droite bghd
+}
+
+#presentation-bts{
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  a:hover{
+    color: #7562E0;
+  }
+}
+
+.body{
+  p{
+    span::after { // line break after each span
+      content: "\A";
+      white-space: pre;
+    }
+  }
+}
+
+
+#box_codeExemple{
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+  justify-content: center;
+
+  img{
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 36vw;
+    height: 36vw;
+  }
+}
+
+#ice_prediction{
+  min-width: fit-content;
+  min-height: fit-content;
+  width: 40vw;
+  height: 40vw;
+}
+
+
+#diag{
+  display: flex;
+  margin: 0 auto;
+  min-width: fit-content;
+  min-height: fit-content;
+  width: 20vw;
+  height: 30vh;
+
+}
+#django{
+  display: flex;
+  margin: 0 auto;
+  min-width: fit-content;
+  min-height: fit-content;
+  width: 10vw;
+  height: 20vh;
+}
+
+#univ_logo{
+  display: flex;
+  margin: 0 auto;
+  min-width: fit-content;
+  min-height: fit-content;
+  width: 10vw;
+  height: 20vh;
+}
+
+#tensorflow,#kereas{
+  display: flex;
+  margin: 0 auto;
+  min-width: fit-content;
+  min-height: fit-content;
+  width: 8vw;
+  height: 15vh;
+}
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+
+  #box_codeExemple{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    justify-content: center;
+
+    img{
+      min-width: fit-content;
+      min-height: fit-content;
+      width: 36vw;
+      height: 36vw;
+    }
+  }
+
+  #ice_prediction{
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 40vw;
+    height: 40vw;
+  }
+
+
+  #diag{
+    display: flex;
+    margin: 0 auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 15vw;
+    height: 25vh;
+
+  }
+  #django{
+    display: flex;
+    margin: 0 auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 5vw;
+    height: 15vh;
+  }
+
+  #univ_logo{
+    display: flex;
+    margin: 0 auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 5vw;
+    height: 15vh;
+  }
+
+  #tensorflow,#kereas{
+    display: flex;
+    margin: 0 auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 8vw;
+    height: 15vh;
+  }
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+
+  #box_codeExemple{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    justify-content: center;
+
+    img{
+      min-width: fit-content;
+      min-height: fit-content;
+      width: 36vw;
+      height: 36vh;
+    }
+  }
+
+  #ice_prediction{
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 40vw;
+    height: 40vh;
+  }
+
+
+  #diag{
+    display: flex;
+    margin: 0 auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 12vw;
+    height: 22vh;
+
+  }
+  #django{
+    display: flex;
+    margin: 0 auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 3vw;
+    height: 13vh;
+  }
+
+  #univ_logo{
+    display: flex;
+    margin: 0 auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 3vw;
+    height: 13vh;
+  }
+
+  #tensorflow,#kereas{
+    display: flex;
+    margin: 0 auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 5vw;
+    height: 10vh;
+  }
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+
+  #box_codeExemple{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    justify-content: center;
+
+    img{
+      min-width: fit-content;
+      min-height: fit-content;
+      width: 36vw;
+      height: 36vw;
+    }
+  }
+
+  #ice_prediction{
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 40vw;
+    height: 40vw;
+  }
+
+
+  #diag{
+    display: flex;
+    margin: 0 auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 9vw;
+    height: 19vh;
+
+  }
+  #django{
+    display: flex;
+    margin: 0 auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 3vw;
+    height: 11vh;
+  }
+
+  #univ_logo{
+    display: flex;
+    margin: 0 auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 3vw;
+    height: 11vh;
+  }
+
+  #tensorflow,#kereas{
+    display: flex;
+    margin: 0 auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 5vw;
+    height: 10vh;
+  }
+}
+
+
+@media screen and (max-width: 362px) {
+
+  #box_codeExemple{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1vw;
+    img{
+      min-width: fit-content;
+      min-height: fit-content;
+      width: 30vw;
+      height: 30vw;
+    }
+  }
+
+  #ice_prediction{
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 30vw;
+    height: 30vw;
+  }
+
+
+  #diag{
+    display: flex;
+    margin: 0 auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 5vw;
+    height: 12vh;
+
+  }
+  #django{
+    display: flex;
+    margin: 0 auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 2vw;
+    height: 8vh;
+  }
+
+  #univ_logo{
+    display: flex;
+    margin: 0 auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 2vw;
+    height: 8vh;
+  }
+
+  #tensorflow,#kereas{
+    display: flex;
+    margin: 0 auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 3vw;
+    height: 5vh;
+  }
+}

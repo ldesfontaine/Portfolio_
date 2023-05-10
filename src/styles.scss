@@ -1,0 +1,264 @@
+/* You can add global styles to this file, and also import other style files */
+$background-color: #1A1A29;
+$nav-color: #181824;
+
+body {
+  background-color: $background-color ;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.color-purple {
+  color: #7562E0;
+}
+
+.color-white {
+  color:white;
+}
+
+
+.btn {
+  color: white;
+  padding: 8px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px;
+  cursor: pointer;
+  justify-content: space-between;
+  border-radius: 8px;
+  user-select: none;
+}
+
+.btn:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.1);
+}
+
+
+.full-btn{
+  background-color: #7562E0;
+  border: 3px solid;
+  border-color: #7562E0;
+}
+.empty-btn{
+  border: 3px solid;
+  border-color: #7562E0;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.icon-size {
+  width: 2rem;
+}
+
+.fts-10 {
+  font-size: 10px;
+}
+
+.fts-12 {
+  font-size: 12px;
+}
+
+.fts-14 {
+  font-size: 14px;
+}
+
+.fts-16 {
+  font-size: 16px;
+}
+
+.fts-18 {
+  font-size: 18px;
+}
+
+.fts-20 {
+  font-size: 20px;
+}
+
+.fts-22 {
+  font-size: 22px;
+}
+
+.fts-24 {
+  font-size: 24px;
+}
+
+.fts-26 {
+  font-size: 26px;
+}
+
+.fts-28 {
+  font-size: 28px;
+}
+
+.fts-30 {
+  font-size: 30px;
+}
+
+.fts-32 {
+  font-size: 32px;
+}
+
+.fts-34 {
+  font-size: 34px;
+}
+
+.fts-36 {
+  font-size: 36px;
+}
+
+.fts-38 {
+  font-size: 38px;
+}
+
+.fts-40 {
+  font-size: 40px;
+}
+
+.fts-42 {
+  font-size: 42px;
+}
+
+.fts-44 {
+  font-size: 44px;
+}
+
+.fts-46 {
+  font-size: 46px;
+}
+
+.fts-48 {
+  font-size: 48px;
+}
+
+.fts-50 {
+  font-size: 50px;
+}
+
+
+.fw-6 {
+  font-weight: 600;
+}
+
+
+
+.mg-t-5 {
+  margin-top: 5vh;
+}
+
+.mg-t-6 {
+  margin-top: 6vh;
+}
+
+.mg-t-7 {
+  margin-top: 7vh;
+}
+
+.mg-t-8 {
+  margin-top: 8vh;
+}
+
+.mg-t-9 {
+  margin-top: 9vh;
+}
+
+.mg-t-10 {
+  margin-top: 10vh;
+}
+
+.mg-t-11 {
+  margin-top: 11vh;
+}
+
+.mg-t-12 {
+  margin-top: 12vh;
+}
+
+.mg-t-13 {
+  margin-top: 13vh;
+}
+
+.mg-t-14 {
+  margin-top: 14vh;
+}
+
+.mg-t-15 {
+  margin-top: 15vh;
+}
+
+.mg-t-16 {
+  margin-top: 16vh;
+}
+
+.mg-t-17 {
+  margin-top: 17vh;
+}
+
+.mg-t-18 {
+  margin-top: 18vh;
+}
+
+.mg-t-19 {
+  margin-top: 19vh;
+}
+
+.mg-t-20 {
+  margin-top: 20vh;
+}
+
+.mg-t-21 {
+  margin-top: 21vh;
+}
+
+.mg-t-22 {
+  margin-top: 22vh;
+}
+
+.mg-t-23 {
+  margin-top: 23vh;
+}
+
+.mg-t-24 {
+  margin-top: 24vh;
+}
+
+.mg-t-25 {
+  margin-top: 25vh;
+}
+
+.mg-t-26 {
+  margin-top: 26vh;
+}
+
+.mg-t-27 {
+  margin-top: 27vh;
+}
+
+.mg-t-28 {
+  margin-top: 28vh;
+}
+
+.mg-t-29 {
+  margin-top: 29vh;
+}
+
+.mg-t-30 {
+  margin-top: 30vh;
+}
+

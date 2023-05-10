@@ -1,0 +1,134 @@
+$nav-color: #181824;
+#toggle-button {
+  display: none;
+}
+
+
+.example-fill-remaining-space {
+  /* This fills the remaining space, by using flexbox.
+     Every toolbar row uses a flexbox row layout. */
+  flex: 1 1 auto;
+}
+
+#nav-container {
+  gap: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+     a{
+      color: white;
+      text-decoration: none;
+      user-select: none;
+     }
+}
+
+
+.nav {
+  display: flex;
+  background-color: $nav-color;
+  padding: 1rem;
+  user-select: none;
+}
+
+#nav-name{
+  margin-left:8vw;
+}
+
+
+
+/* dropdown menu */
+.dropdown {
+  position: relative;
+}
+
+.dropbtn {
+  color: white;
+  background-color: $nav-color;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: $nav-color;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  right: 0;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+//
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+//
+.show {
+  display: block;
+}
+
+.dropdown_mob{
+  display: none;
+}
+
+
+/* */
+
+@media screen and (max-width: 656px)  {
+.dropdown_mob{
+  display: block;
+}
+
+.dropdown {
+  display: none;
+}
+.nav{
+  flex-direction: column;
+  gap: 1rem;
+
+  #nav-container{
+    gap: 1rem;
+    display: none;
+    flex-direction: column;
+  a{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+  }
+  #toggle-button {
+    display: block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: $nav-color;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+  }
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .show {
+    display: block;
+  }
+}
+
+}
+

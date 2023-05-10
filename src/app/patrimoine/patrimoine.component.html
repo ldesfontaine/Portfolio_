@@ -1,0 +1,73 @@
+<div class="body">
+
+  <h1 class="color-white txt-center fts-42">Gestion du patrimoine</h1>
+
+  <div class="btn-container txt-center">
+    <a (click)="scrollToId('synt_patr')" class="btn full-btn">
+      Synthèse 1er
+    </a>
+    <a (click)="scrollToId('synt_patr2')" class="btn empty-btn" id="btn-projet">
+      Synthèse 2eme
+    </a>
+  </div>
+
+  <div>
+    <h2 class="txt-center color-purple"> la gestion de patrimoine</h2>
+
+    <p class="txt-center color-white">
+      La gestion de patrimoine d'une boîte d'informatique consiste à gérer et à optimiser les actifs de l'entreprise
+      liés à son domaine d'activité. Cela inclut la gestion des équipements informatiques tels que les ordinateurs,
+      les serveurs, les logiciels, ainsi que la gestion de la propriété intellectuelle, des licences et des brevets.
+    </p>
+    <p class="txt-center color-white">
+      La gestion de patrimoine en informatique implique également la planification de l'investissement dans de nouveaux
+      équipements ou technologies, ainsi que la mise en place de stratégies pour la maintenance, la réparation et le
+      remplacement des actifs existants.
+    </p>
+    <p class="txt-center color-white">
+      En outre, la gestion de patrimoine en informatique peut également inclure la gestion des données de l'entreprise,
+      la protection des informations sensibles et la mise en place de systèmes de sauvegarde pour éviter la perte de
+      données critiques en cas de catastrophe ou de panne.
+    </p>
+    <p class="txt-center color-white">
+      En somme, la gestion de patrimoine d'une boîte d'informatique vise à maximiser la valeur des actifs informatiques
+      de l'entreprise tout en minimisant les coûts et les risques associés à leur utilisation. C'est un enjeu clé pour
+      garantir la pérennité et la compétitivité de l'entreprise dans un environnement économique de plus en plus
+      concurrentiel.
+    </p>
+  </div>
+
+<section>
+  <div id="synt_patr" class="txt-center">
+    <h2 class="color-purple fts-30 ">Synthèse 1er année</h2>
+    <p class="color-white fts-24">
+      Synthèse gestion de patrimoine 1er année
+    </p>
+  </div>
+
+  <div id="gest_patr">
+    <iframe id="pdf_gest" type="pdf"src="assets/pdf/gestion_des_patrimoines.pdf"></iframe>
+  </div>
+</section>
+
+
+
+  <section>
+    <div id="synt_patr2" class="txt-center mg-t-20">
+      <h2 class="color-purple fts-30 ">Synthèse 2éme années</h2>
+      <p class="color-white fts-24">
+        Synthèse gestion de patrimoine 2eme années
+      </p>
+    </div>
+
+    <div id="gest_patr2">
+      <iframe id="pdf_gest2" type="pdf"src="assets/pdf/gestion_des_patrimoines.pdf"></iframe>
+    </div>
+  </section>
+
+
+
+</div>
+<footer class="mg-t-10">
+  <app-footer></app-footer>
+</footer>

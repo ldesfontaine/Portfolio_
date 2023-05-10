@@ -1,0 +1,41 @@
+<div class="body">
+
+<h1 class="color-white txt-center fts-42">Veille Technologique</h1>
+
+
+<div id="description" class="color-purple fts-22">
+  <h3>Objectif de la veille</h3>
+  <p class="color-white fts-22">
+    <span>
+      La veille technologique consiste à s’informer en continu sur les nouveautés du secteur, les inventions des concurrents ainsi que les nouvelles technologies et ce dans le but d’être le meilleur de son domaine.
+    </span>
+    <span>
+      Dans un projet, toute l'équipe doit pouvoir collaborer facilement.
+    </span>
+    <span>
+      Dans un projet, toute l'équipe doit pouvoir collaborer facilement.
+    </span>
+    <span>
+      Ils existent de nombreux outils de collaboration telle que Github, Jira, Slack...
+    </span>
+    <span>
+      Je vais donc vous présenter ses différents outils et leurs avantages et inconvénients.
+    </span>
+  </p>
+</div>
+
+<div>
+  <h3 class="color-purple txt-center fts-22 mg-t-20">Cette veille aura comme sujet "Les outils collaboratifs"</h3>
+</div>
+
+<div id="box-article">
+  <app-article-veille  *ngFor="let article of articles" [articles]="article">
+  </app-article-veille>
+</div>
+
+</div>
+
+
+<footer class="mg-t-10">
+  <app-footer></app-footer>
+</footer>

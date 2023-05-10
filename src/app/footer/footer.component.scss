@@ -1,0 +1,29 @@
+footer {
+  position: fixed;
+  justify-content: space-around;
+  user-select: none;
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  bottom:0;
+  font-size:1rem;
+  color: white;
+  background-color: #181824;
+  div{
+    display:flex;
+  }
+}
+
+
+div#backToTop{
+  cursor: pointer;
+  display: flex;
+  a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+  }
+  a:hover{
+    color: #7562E0;
+  }
+}

@@ -1,0 +1,152 @@
+<div class="body">
+
+
+  <h1 class="color-white txt-center fts-42">BTS SIO</h1>
+
+  <div class="btn-container txt-center">
+    <a (click)="scrollToId('syntese1')" class="btn full-btn">
+      Synthèse 1er
+    </a>
+    <a (click)="scrollToId('syntese2')" class="btn empty-btn" id="btn-projet">
+      Synthèse 2eme
+    </a>
+  </div>
+
+  <div id="presentation-bts" class="mg-t-15">
+    <h3 class="color-purple fts-26">Présentation du BTS SIO</h3>
+    <p class="color-white fts-22">
+      Il s’agit d’un BTS informatique, cette formation permet de former de futurs professionnels des réseaux et équipements informatiques ou de futurs spécialistes des logiciels.
+      La formation dure 2 ans, durant cette formation nous avons eu la possibilité de nous spécialiser entre 2 domaines (SLAM et SISSR). Pour plus d’informations venaient sur notre site
+      <a href="https://www.btsinfo.nc">btsinfo.nc</a> .
+    </p>
+  </div>
+
+  <div id="why-bts" class="mg-t-15">
+    <h3 class="color-purple fts-26">Pourquoi j’ai choisi le BTS ?</h3>
+    <p class="color-white fts-22">
+      J’ai choisi le BTS SIO car c’était la formation qui me correspondait le mieux. La formation propose un côté pratique et théorique.
+      De plus, nous avons la possibilité d’effectuer des stages. Les autres formations ne m’intéressent pas car elle proposait tous de l’audiovisuel ou était plus théorique.
+    </p>
+    <p class="color-white fts-22">
+      Durant ma formation, j’ai eu la possibilité de me spécialiser en tant que développeur. J'ai choisi la spécialité SLAM,
+      car j'avais déjà des bases en développement et je souhaitais m'améliorer dans ce secteur. J'ai comme objectifs de devenir développeur full stack et cette formation et selon moi parfaite pour y parvenir.
+    </p>
+  </div>
+
+  <h3 class="color-purple fts-26 mg-t-18 txt-center">Mes synthèses de stages</h3>
+
+  <div id="syntese1">
+    <h3 class="color-purple fts-26 txt-center mg-t-10">Synthèses de 1er année</h3>
+    <h1 class="color-white fts-30 txt-center mg-t-10">Stage APID (Alternative Prjects For Inteligence In Data)</h1>
+    <p class="color-white fts-20">
+      <span class="color-purple fts-22">Contexte de stage :</span> <br>
+      <span>Mon stage de 1er année s'est déroulé dans la jeune entreprise APID.</span>
+      <span>Il s’agit d'une entreprise spécialisée dans le développement et la gestion de DATA.</span>
+      <span>L’entreprise possède à son active 5 personnes dont 2 développeurs.</span>
+      <span>Durant tous mon stages j’ai été sous le tutorat de ces 2 développeurs expérimentées Thomas Avron et Éric Vidal.</span>
+      <span>J’ai eu différentes missions qui vont de la conception d’un schéma relationnel de base de données, au développement d'une fonctionnalité pour une application web sous le framework Django.</span>
+      <span>De plus nous avons participé durant ma période de stage aux océans Hackathon de 2022.</span>
+      <span>Cette participation nous aura permis de nous placer sur le podium avec le prix local.</span>
+      <span>Au niveau développement nous avons utilisé des outils de versionings du code tel que GIT héberger sur les serveurs de l’entreprise.</span>
+    </p>
+
+    <p class="color-white fts-20">
+      <span class="color-purple fts-22">Compétences développées :</span> <br>
+      <span>-> Analyse d'un cahier des charges</span>
+      <span>-> Autoformation sur le framework python Django et le machine & deep learning</span>
+      <span>-> Développement de fonctionnalité sur un applications en production</span>
+      <span>-> Versioning des différentes codes</span>
+      <span>-> Rédaction de documentation sur des outils de stack data telle que Airbyte</span>
+      <span>-> Mise en place d'une VM de calcul sous la distribution Obarun</span>
+    </p>
+  </div>
+
+  <h1 class="color-purple fts-30 txt-center mg-t-10">Océan Hackathon</h1>
+
+  <div id="main">
+    <p class="color-white fts-20">
+      <span>Mon  principale objective durant mon stage était la mise en place
+         d'un modèle capable de prédire la concentration en glace en Antarctique.</span>
+      <span>Notre modèle est basé sur l'architecture LSTM (Long Short-Term Memory).</span>
+      <span>Une fois le modèle établit nous l'avons entrainé durant de longues
+        heures.
+      </span>
+      <span>Durant cet entrainement il a observé des milliers d'images
+         satellites de l'Antarctique.</span>
+      <span>Nous avons utilisé des procédés de deep learning et machine learning.
+
+      </span>
+      <span>Le but de ce projet est d'aider tous les marins afin qu'il puisse
+        adopte une tactique d'approche convenable.</span>
+          <img id="tensorflow" src="assets/Image/tensorflow.png" alt="tensorflow">
+          <img id="kereas" src="assets/Image/kereas.png" alt="kereas">
+
+      </p>
+
+      <br>
+
+      <div>
+        <p class="color-white fts-20">
+          <span>Les programmes ont était réalisée en python avec les librairies Kereas et Tensorflow .</span>
+          <span>Afin d'entrainer notre modèle nous avons eu accès un stock d'image fournie par l'université de Bremen.</span>
+          <span>À partir de ces images nous avons créé notre dataset.</span>
+        </p>
+        <img id="univ_logo" src="assets/Image/univ.png" alt="univ_logo">
+      </div>
+
+      <br>
+
+    <p class="color-white fts-20 txt-center">
+      <span class="italic">Par exemple le code suivant nous a permis de charger notre dataset et de lancer notre programme : </span>
+      <span id="box_codeExemple">
+        <img src="assets/Image/code_exemple1.png" alt="code">
+        <img src="assets/Image/code_exemple2.png" alt="code">
+      </span>
+    </p>
+
+    <p class="color-white fts-20 txt-center">
+      <span>Une fois que l'apprentissage de notre modèle est fini nous avons pu
+        lui demander de prédire la concentration en glace autour de l'Antarctique.</span>
+            <br>
+        <span class="italic">Voici les résultats de 15 jours de prédictions</span>
+        <span>Les images de gauches sont les images fournies par l'université de Bremen</span>
+        <span>Les images de droites sont les predictions</span>
+        <img id="ice_prediction" src="assets/Image/ice_prediction.gif" alt="ice_prédiction">
+    </p>
+  </div>
+
+  <h3 class="color-white txt-center fts-26 mg-t-10">Mes autres missions</h3>
+
+  <div id="mission">
+    <p class="color-white fts-20">
+      <span>J'ai également travaillé sur la conception d'une base de données relationnelle pour l'application web d'un garage.</span>
+      <span>J'ai dû créer un schéma relationnel de données cohérent avec les besoins de l'entreprise.</span>
+      <span>Ce schéma relationnel va permettre de créer la base de données de façon cohérente.</span>
+      <img id="diag" src="assets/Image/diag.png" alt="Schéma relationnel">
+    </p>
+
+      <br>
+
+    <p class="color-white fts-20">
+      <span>J'ai également travaillé sur une application interne du type GLPI.</span>
+      <span>Cette application et développées sous le framework Django.</span>
+      <span>On m’a demandé de créer une fonctionnalité afin de déplacer des utilisateurs dans un groupe spécifique.</span>
+      <img id="django" src="assets/Image/django.png" alt="glpi">
+    </p>
+  </div>
+
+
+  <div id="syntese2">
+
+  </div>
+
+
+
+
+</div>
+
+
+
+<footer class="mg-t-10">
+  <app-footer></app-footer>
+</footer>

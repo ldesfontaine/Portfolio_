@@ -1,0 +1,90 @@
+<div class="body">
+  <div class="presentation-container">
+    <div id="contenu-presentation">
+        <p class="color-white fts-24 fw-6">Bonjour,</p>
+      <h1 class="color-white fts-48 fw-6">Je suis un <span class="color-purple fts-50 multitext"></span></h1>
+        <p class="color-white fts-24" id="text-presentation">
+          <span>Je suis étudiant en BTS SIO (Services </span>
+          <span>informatiques aux organisations) et spécialisé </span>
+          <span>dans le développement. -- </span>
+        </p>
+        <div class="btn-container">
+          <a (click)="scrollToId('about')" class="btn full-btn">
+            A propos <fa-icon [icon]="faUser"></fa-icon>
+          </a>
+          <a (click)="scrollToId('my-projects')" class="btn empty-btn" id="btn-projet">
+            Mes projets <fa-icon [icon]="faEye"></fa-icon>
+          </a>
+        </div>
+    </div>
+    <!--    <div id="image-presentation">-->
+<!--      <img src="../assets/Image/PP.jpg" alt="Photo">-->
+<!--    </div>-->
+  </div>
+
+
+  <div id="about">
+    <h2 class="color-purple fts-32">À propos de moi</h2>
+    <p id="about-text" class="fts-20">
+      <span>
+      Je suis actuellement en 1er année de BTS SIO et je suis passionné par
+      l'informatique. Durant ma formation, je me suis spécialisé dans le
+       développement.
+      </span>
+      <span>
+      Pour commencer, j'ai effectué un BAC général avec une spécialité
+       informatique, mathématiques et audiovisuel.
+      </span>
+      <span>
+        Je souhaite continuer de me former en informatique et je pense que le
+        BTS SIO est la formation qu'il me faut. Je suis à la recherche de
+        nouvelle expérience dans le monde du numérique.
+      </span>
+    </p>
+  </div>
+
+
+  <h2 class="color-purple fts-32 mg-t-10" >Compétences</h2>
+    <div id="competences">
+      <app-competence *ngFor="let competence of competences" [Competence]="competence">
+      </app-competence>
+    </div>
+
+  <div id="my-projects">
+    <h2 class="color-purple fts-32">Mes projets</h2>
+    <p class="color-white fts-20">
+      J’essaye d’acquérir de nouvelles compétences et pour cela je me lance le
+      défi de réaliser des petits projets afin de mettre ses compétences en pratiques.
+    </p>
+    <div id="projets-row">
+      <app-project *ngFor="let project of projects" [Project]="project">
+      </app-project>
+    </div>
+  </div>
+
+
+  <div id="contact" class="mg-t-10">
+    <app-contact></app-contact>
+  </div>
+
+</div><!-- fin body -->
+
+
+
+<footer class="mg-t-10">
+  <app-footer></app-footer>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

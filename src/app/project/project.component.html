@@ -1,0 +1,11 @@
+<div class="projet-box">
+  <img [src]="Project.imageUrl" alt="image_portfolio">
+  <h4 class='color-purple fts-22 txt-center'>{{Project.title}}</h4>
+  <p class="fts-18 color-white txt-center">
+    {{Project.description}}
+  </p>
+  <div id="btn-container">
+    <a *ngIf="Project.site_link" class="btn full-btn" target="_blank" [href]="Project.site_link">Voir le site</a>
+    <a *ngIf="Project.github_link" class="btn empty-btn" target="_blank" [href]="Project.github_link">Github Repo</a>
+  </div>
+</div>

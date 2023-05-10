@@ -1,0 +1,36 @@
+
+  <h2 class="color-purple fts-32">Me contacter</h2>
+<div id="box-container">
+  <div id="left-box">
+      <div id="format-contact">
+      <span><a href="mailto:lucas.desfontaine1@gmail.com" target="_blank" class="fts-20"><fa-icon [icon]="faEnvelope"></fa-icon> lucas.desfontaine1@gmail.com</a></span>
+      <span><a href="https://www.linkedin.com/in/lucas-desfontaine-79370a23a/" target="_blank" class="fts-20"><fa-icon [icon]="faLinkedin"></fa-icon> Linkedin</a></span>
+      <span><a href="https://github.com/ldesfontaine" target="_blank" class="fts-20"><fa-icon [icon]="faGithub"></fa-icon> Github</a></span>
+      <span><a href="tel:+687500026" target="_blank" class="fts-20"><fa-icon [icon]="faMobile"></fa-icon> +687.50.00.26</a></span>
+    </div>
+  </div>
+
+
+  <div id="right-box">
+    <form action='https://formspree.io/f/mkneqkao' method="post">
+
+      <div class="form-group">
+        <input type="text" name="name" id="name" placeholder="Name:">
+      </div>
+
+      <div class="form-group">
+        <input type="email" name="email" id="email" placeholder="Email:">
+      </div>
+
+      <div class="form-group">
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message:"></textarea>
+      </div>
+
+      <div class="form-group">
+        <button type="submit" class="btn full-btn">Envoyer <fa-icon [icon]="faPaperPlane"></fa-icon></button>
+      </div>
+
+    </form>
+  </div>
+
+</div>

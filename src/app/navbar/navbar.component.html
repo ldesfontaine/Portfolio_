@@ -1,0 +1,31 @@
+<mat-toolbar class="nav">
+  <span class="color-purple fts-24" id="nav-name">Desfontaine Lucas</span>
+
+  <!-- This fills the remaining space of the current row -->
+  <span class="example-fill-remaining-space"></span>
+  <nav id="nav-container">
+    <a routerLink="/home"  routerLinkActive="active" (click)="togNav()" >Home</a>
+    <a routerLink="/parcours" routerLinkActive="active" (click)="togNav()" >A propos de moi</a>
+    <a routerLink="/projets" routerLinkActive="active" (click)="togNav()" >Projets</a>
+
+
+    <div class="dropdown">
+      <a class="dropbtn">BTS</a>
+      <div class="dropdown-content" [ngClass]="{'show': isDropdownOpen}">
+        <a routerLink="/bts" routerLinkActive="active" (click)="togNav()" >BTS SIO</a>
+        <a routerLink="/veille" routerLinkActive="active" (click)="togNav()" >Veille Technologique</a>
+        <a routerLink="/patrimoine" routerLinkActive="active" (click)="togNav()">Gestion du patrimoine</a>
+      </div>
+    </div>
+
+    <div class="dropdown_mob">
+        <a routerLink="/bts" routerLinkActive="active" (click)="togNav()" >BTS SIO</a>
+        <a routerLink="/veille" routerLinkActive="active" (click)="togNav()" >Veille Technologique</a>
+        <a routerLink="/patrimoine" routerLinkActive="active" (click)="togNav()">Gestion du patrimoine</a>
+    </div>
+
+  </nav>
+  <button id="toggle-button" (click)="togNav()" >Menu</button>
+
+
+</mat-toolbar>

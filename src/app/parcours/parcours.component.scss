@@ -1,0 +1,40 @@
+.body{
+  padding: 7vh 9vw 0vh 9vw; // bas gauche haut droite bghd
+}
+
+.body{
+  p{
+    span::after { // line break after each span
+      content: "\A";
+      white-space: pre;
+    }
+  }
+}
+
+
+#cv {
+  height: fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  #cv_img {
+    width: 50vw;
+    height: 160vh;
+
+  }
+}
+
+
+//responsive image for cv
+@media screen and (max-width: 768px) {
+  #cv {
+    height: fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    #cv_img {
+      width: 100vw;
+      height: 100vh;
+    }
+  }
+}
+
+

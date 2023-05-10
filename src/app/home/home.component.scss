@@ -1,0 +1,110 @@
+$purple-color :#7562E0;
+
+.body{
+  padding: 7vh 9vw 0vh 9vw; // bas gauche haut droite bghd
+}
+
+.presentation-container {
+  display:flex;
+  flex-direction: row;
+  gap: 17.5vw;
+
+  #text-presentation{
+    text-align: start;
+  }
+
+  span::after { // line break after each span
+    content: "\A";
+    white-space: pre;
+  }
+
+  p {
+    margin: 15px 0px 15px 0px;
+  }
+
+
+  #btn-projet {
+    padding: 8px 15px;
+  }
+
+}
+
+#image-presentation{
+  display: flex;
+  align-items: center;
+  // margin: 15px 10vw 15px 0;
+  margin:0 auto;
+  img {
+    // width: 210%;
+    // height: 110%;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+  }
+}
+
+.btn-container{
+  display: flex;
+  gap: 20px;
+  color: white;
+}
+
+.icons-import{ //TODO fix icons placement
+  width: 20%;
+}
+
+#about {
+  margin-top:15vh;
+}
+
+#about-text{
+  color: white;
+  width: 80vw;
+  text-align: start;
+  span::after { // line break after each span
+    content: "\A";
+    white-space: pre;
+  }
+
+}
+
+
+#competences{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: fit-content;
+  margin: 0 auto;
+  gap: 5vw;
+}
+
+#my-projects {
+  margin-top:9vh;
+}
+
+#projets-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5vw;
+  min-width: fit-content;
+  min-height: fit-content;
+  flex-wrap: wrap;
+}
+
+#projets-row>* {
+  flex: 30%;
+}
+//responsive #competences
+@media screen and (max-width: 1350px) {
+  #image-presentation{
+    display: none;
+  }
+  #competences{
+    flex-direction: column;
+  }
+  #projets-row {
+    flex-direction: column;
+  }
+
+}
