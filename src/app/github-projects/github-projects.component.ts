@@ -30,7 +30,7 @@ interface Repository {
 })
 export class GithubProjectsComponent implements OnInit {
 
-  username: string = 'ldesfontaine';
+  username: string = '';
   projects: Repository[] = [];
   events: GitHubEvent[] = [];
 

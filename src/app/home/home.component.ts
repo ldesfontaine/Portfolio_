@@ -107,7 +107,7 @@ scrollToId(id: string) {
         github_link: 'https://github.com/ldesfontaine/location',
       },
       {
-        imageUrl: '../assets/Image/bash_script.png',
+        imageUrl: '../assets/Image/borabora.png',
         title: 'Borabora',
         description:'Il s’agit d’un un site de gestion d\'hotel',
         site_link: 'https://garage.ldesfontaine.me/',
@@ -121,13 +121,13 @@ scrollToId(id: string) {
         github_link: 'https://github.com/ldesfontaine/lamp_installer_wp',
       },
       {
-        imageUrl: '../assets/Image/bash_script.png',
+        imageUrl: 'assets/Image/documentation.jpg',
         title: 'Documentations',
         description:'Il s’agit d’un repository contenant toutes mes documentatiosn',
         github_link: 'https://github.com/ldesfontaine/lamp_installer_wp',
       },
       {
-        imageUrl: '../assets/Image/bash_script.png',
+        imageUrl: '../assets/Image/crunchytrack.png',
         title: 'CrunchyTrack',
         description:'Il s’agit d’une extension chrome',
         github_link: 'https://github.com/ldesfontaine/lamp_installer_wp',

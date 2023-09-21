@@ -1,4 +1,4 @@
-import { Project } from './../models/project.model';
+import { Project } from '../models/project.model';
 import { Component, Input } from '@angular/core';
 
 @Component({
