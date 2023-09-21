@@ -35,7 +35,7 @@ import {HttpClientModule} from "@angular/common/http";
     FooterComponent,
     ArticleVeilleComponent,
     PatrimoineComponent,
-    GithubProjectsComponent
+    GithubProjectsComponent,
   ],
   imports: [
     BrowserModule,

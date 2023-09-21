@@ -7,14 +7,14 @@
 .card {
   width: 300px;
   padding: 20px;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease-in-out;
 
   &:hover {
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   }
 
   .card-header {
@@ -26,21 +26,31 @@
     margin-bottom: 10px;
 
     a {
-      color: #333;
+      color: #3498db; /* Change link color */
       text-decoration: none;
+      transition: color 0.3s ease-in-out;
+
+      &:hover {
+        color: #2980b9;
+      }
     }
 
     .badge {
-      background-color: #eee;
+      background-color: #ecf0f1; /* Change badge background color */
       padding: 5px 10px;
       border-radius: 5px;
       font-size: 14px;
+      color: #555;
     }
   }
 
   .card-body {
     font-size: 14px;
     margin-bottom: 10px;
+
+    p {
+      color: #555; /* Change text color */
+    }
   }
 
   .card-footer {
@@ -48,10 +58,18 @@
     justify-content: space-between;
     align-items: center;
     font-size: 12px;
-    color: #666;
+    color: #777;
 
     .pushed-at {
       margin-left: auto;
     }
+  }
+}
+
+.card a {
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: translateY(-2px);
   }
 }

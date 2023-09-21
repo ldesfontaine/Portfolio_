@@ -1,25 +1,27 @@
 <div class="body">
   <div class="presentation-container">
     <div id="contenu-presentation">
-        <p class="color-white fts-24 fw-6">Bonjour,</p>
+      <p class="color-white fts-24 fw-6">Bonjour,</p>
       <h1 class="color-white fts-48 fw-6">Je suis un <span class="color-purple fts-50 multitext"></span></h1>
-        <p class="color-white fts-24" id="text-presentation">
-          <span>Je suis étudiant en BTS SIO (Services </span>
-          <span>informatiques aux organisations) et spécialisé </span>
-          <span>dans le développement. -- </span>
-        </p>
-        <div class="btn-container">
-          <a (click)="scrollToId('about')" class="btn full-btn">
-            A propos <fa-icon [icon]="faUser"></fa-icon>
-          </a>
-          <a (click)="scrollToId('my-projects')" class="btn empty-btn" id="btn-projet">
-            Mes projets <fa-icon [icon]="faEye"></fa-icon>
-          </a>
-        </div>
+      <p class="color-white fts-24" id="text-presentation">
+        <span>Je suis étudiant en BTS SIO (Services </span>
+        <span>informatiques aux organisations) et spécialisé </span>
+        <span>dans le développement.</span>
+      </p>
+      <div class="btn-container">
+        <a (click)="scrollToId('about')" class="btn full-btn">
+          A propos
+          <fa-icon [icon]="faUser"></fa-icon>
+        </a>
+        <a (click)="scrollToId('my-projects')" class="btn empty-btn" id="btn-projet">
+          Mes projets
+          <fa-icon [icon]="faEye"></fa-icon>
+        </a>
+      </div>
     </div>
     <!--    <div id="image-presentation">-->
-<!--      <img src="../assets/Image/PP.jpg" alt="Photo">-->
-<!--    </div>-->
+    <!--      <img src="../assets/Image/PP.jpg" alt="Photo">-->
+    <!--    </div>-->
   </div>
 
 
@@ -44,11 +46,12 @@
   </div>
 
 
-  <h2 class="color-purple fts-32 mg-t-10" >Compétences</h2>
-    <div id="competences">
-      <app-competence *ngFor="let competence of competences" [Competence]="competence">
-      </app-competence>
-    </div>
+  <h2 class="color-purple fts-32 mg-t-10">Compétences</h2>
+  <div id="competences" style="display: flex; flex-wrap: wrap; justify-content: center">
+    <app-competence *ngFor="let competence of competences" [Competence]="competence">
+    </app-competence>
+  </div>
+
 
   <div id="my-projects">
     <h2 class="color-purple fts-32">Mes projets</h2>
@@ -68,7 +71,6 @@
   </div>
 
 </div><!-- fin body -->
-
 
 
 <footer class="mg-t-10">

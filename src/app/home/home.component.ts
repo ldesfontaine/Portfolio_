@@ -27,7 +27,7 @@ scrollToId(id: string) {
 
   ngOnInit() {
     var typed = new Typed('.multitext', {
-      strings: ['Développeur', 'Codeur', 'Alternant'],
+      strings: ['Développeur', 'Codeur', 'Alternant', 'Floppeur'],
       loop: true,
       typeSpeed: 100,
       backSpeed: 80,
@@ -57,6 +57,36 @@ scrollToId(id: string) {
         description: 'Je créer également des applications, avec différents langages '+
         'comme Python, Java .'
       },
+      {
+        imageUrl: '../assets/Image/dev.png',
+        title: 'Gestion du patrimoine informatique',
+        description: 'BLABLABLA'
+      },
+      {
+        imageUrl: '../assets/Image/dev.png',
+        title: 'Travailler en mode projet',
+        description: 'BLABLABLA'
+      },
+      {
+        imageUrl: '../assets/Image/dev.png',
+        title: 'Developper la présence en ligne d\'une orga',
+        description: 'BLABLABLA'
+      },
+      {
+        imageUrl: '../assets/Image/dev.png',
+        title: 'Repondre au incident et demande d\'évolutions',
+        description: 'BLABLABLA'
+      },
+      {
+        imageUrl: '../assets/Image/dev.png',
+        title: 'Organiser son deve pro',
+        description: 'BLABLABLA'
+      },
+      {
+        imageUrl: '../assets/Image/dev.png',
+        title: 'Mettre a dispo de sutilisateurs un services informatiques',
+        description: 'BLABLABLA'
+      },
     ];
 
     this.projects = [
@@ -73,14 +103,33 @@ scrollToId(id: string) {
         title: 'Projet location de voiture',
         description:'Il s’agit d’un site de location de voiture.'+
         ' Il a été réalisé avec le framework Laravel',
-        site_link: 'https://location.ldesfontaine.me/',
+        site_link: 'https://garage.ldesfontaine.me/',
         github_link: 'https://github.com/ldesfontaine/location',
+      },
+      {
+        imageUrl: '../assets/Image/bash_script.png',
+        title: 'Borabora',
+        description:'Il s’agit d’un un site de gestion d\'hotel',
+        site_link: 'https://garage.ldesfontaine.me/',
+        github_link: 'https://github.com/ldesfontaine/lamp_installer_wp',
       },
       {
         imageUrl: '../assets/Image/bash_script.png',
         title: 'Lamp & WP Installer',
         description:'Il s’agit d’un script en bash'+
           ' facilitant l\'installation d\'un environement LAMP & WP',
+        github_link: 'https://github.com/ldesfontaine/lamp_installer_wp',
+      },
+      {
+        imageUrl: '../assets/Image/bash_script.png',
+        title: 'Documentations',
+        description:'Il s’agit d’un repository contenant toutes mes documentatiosn',
+        github_link: 'https://github.com/ldesfontaine/lamp_installer_wp',
+      },
+      {
+        imageUrl: '../assets/Image/bash_script.png',
+        title: 'CrunchyTrack',
+        description:'Il s’agit d’une extension chrome',
         github_link: 'https://github.com/ldesfontaine/lamp_installer_wp',
       },
     ];
