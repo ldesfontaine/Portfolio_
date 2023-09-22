@@ -59,33 +59,33 @@ scrollToId(id: string) {
       },
       {
         imageUrl: '../assets/Image/dev.png',
-        title: 'Gestion du patrimoine informatique',
-        description: 'BLABLABLA'
+        title: 'Gérer le patrimoine informatique',
+        description: 'Versioning des projets via git, documentation, wiki, gestion des licences'
       },
       {
         imageUrl: '../assets/Image/dev.png',
         title: 'Travailler en mode projet',
+        description: 'Gitlab , Scrum (agile), Trello, Github'
+      },
+      {
+        imageUrl: '../assets/Image/dev.png',
+        title: 'Développer la présence en ligne de l’organisation',
+        description: 'Océan Hackaton (APID), création d’un model LSTM '
+      },
+      {
+        imageUrl: '../assets/Image/dev.png',
+        title: 'Répondre aux incidents et demandes d’assistances et d’évolution',
         description: 'BLABLABLA'
       },
       {
         imageUrl: '../assets/Image/dev.png',
-        title: 'Developper la présence en ligne d\'une orga',
-        description: 'BLABLABLA'
+        title: 'Organiser son développement professionnel',
+        description: 'Projet pro, mise en place d’un environnement d’apprentissage'
       },
       {
         imageUrl: '../assets/Image/dev.png',
-        title: 'Repondre au incident et demande d\'évolutions',
-        description: 'BLABLABLA'
-      },
-      {
-        imageUrl: '../assets/Image/dev.png',
-        title: 'Organiser son deve pro',
-        description: 'BLABLABLA'
-      },
-      {
-        imageUrl: '../assets/Image/dev.png',
-        title: 'Mettre a dispo de sutilisateurs un services informatiques',
-        description: 'BLABLABLA'
+        title: 'Mettre a disposition des utilisateurs un service informatique',
+        description: 'Création de documentation / wiki'
       },
     ];
 
@@ -123,7 +123,7 @@ scrollToId(id: string) {
       {
         imageUrl: 'assets/Image/documentation.jpg',
         title: 'Documentations',
-        description:'Il s’agit d’un repository contenant toutes mes documentatiosn',
+        description:'Il s’agit d’un repository contenant toutes mes documentations',
         github_link: 'https://github.com/ldesfontaine/lamp_installer_wp',
       },
       {
