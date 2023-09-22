@@ -80,6 +80,54 @@
   height: 15vh;
 }
 
+#api{
+  display: flex;
+  margin: 0 auto;
+  min-width: fit-content;
+  min-height: fit-content;
+  width: 70vw;
+  height: 80vh;
+}
+#jeuxEco{
+  display: flex;
+  margin: 0 auto;
+  min-width: fit-content;
+  min-height: fit-content;
+  width: 70vw;
+  height: 80vh;
+}
+#json{
+  display: flex;
+  margin: 0 auto;
+  min-width: fit-content;
+  min-height: fit-content;
+  width: 70vw;
+  height: 80vh;
+}
+#issue{
+  display: flex;
+  margin: 0 auto;
+  min-width: fit-content;
+  min-height: fit-content;
+  width: 20vw;
+  height: 10vh;
+}
+#objo{
+  display: flex;
+  margin: 0 auto;
+  min-width: fit-content;
+  min-height: fit-content;
+  width: 10vw;
+  height: 15vh;
+}
+#mod,#iss{
+  display: flex;
+  margin: 0 auto;
+  min-width: fit-content;
+  min-height: fit-content;
+  width: 30vw;
+  height: 40vh;
+}
 
 
 
@@ -142,6 +190,38 @@
     min-width: fit-content;
     min-height: fit-content;
     width: 8vw;
+    height: 15vh;
+  }
+  #jeuxEco{
+    display: flex;
+    margin: 0 auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 40vw;
+    height: 50vh;
+  }
+  #json{
+    display: flex;
+    margin: 0 auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 40vw;
+    height: 50vh;
+  }
+  #issue{
+    display: flex;
+    margin: 0 auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 20vw;
+    height: 10vh;
+  }
+  #objo{
+    display: flex;
+    margin: 0 auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 10vw;
     height: 15vh;
   }
 }
@@ -208,6 +288,47 @@
     width: 5vw;
     height: 10vh;
   }
+
+  #api{
+    display: flex;
+    margin: 0 auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 50vw;
+    height: 60vh;
+  }
+  #jeuxEco{
+    display: flex;
+    margin: 0 auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 50vw;
+    height: 60vh;
+  }
+  #json{
+    display: flex;
+    margin: 0 auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 40vw;
+    height: 50vh;
+  }
+  #issue{
+    display: flex;
+    margin: 0 auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 10vw;
+    height: 10vh;
+  }
+  #objo{
+    display: flex;
+    margin: 0 auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 10vw;
+    height: 15vh;
+  }
 }
 
 
@@ -272,6 +393,46 @@
     width: 5vw;
     height: 10vh;
   }
+  #api{
+    display: flex;
+    margin: 0 auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 30vw;
+    height: 40vh;
+  }
+  #jeuxEco{
+    display: flex;
+    margin: 0 auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 30vw;
+    height: 40vh;
+  }
+  #json{
+    display: flex;
+    margin: 0 auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 30vw;
+    height: 40vh;
+  }
+  #issue{
+    display: flex;
+    margin: 0 auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 8vw;
+    height: 10vh;
+  }
+  #objo{
+    display: flex;
+    margin: 0 auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 5vw;
+    height: 15vh;
+  }
 }
 
 
@@ -332,5 +493,45 @@
     min-height: fit-content;
     width: 3vw;
     height: 5vh;
+  }
+  #api{
+    display: flex;
+    margin: 0 auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 2vw;
+    height: 8vh;
+  }
+  #jeuxEco{
+    display: flex;
+    margin: 0 auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 2vw;
+    height: 8vh;
+  }
+  #json{
+    display: flex;
+    margin: 0 auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 2vw;
+    height: 8vh;
+  }
+  #issue{
+    display: flex;
+    margin: 0 auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 5vw;
+    height: 10vh;
+  }
+  #objo{
+    display: flex;
+    margin: 0 auto;
+    min-width: fit-content;
+    min-height: fit-content;
+    width: 10vw;
+    height: 15vh;
   }
 }

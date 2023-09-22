@@ -96,7 +96,7 @@ scrollToId(id: string) {
         description: 'Il s’agit du portfolio que vous êtes en train de consulter.'+
         ' Il a été réalisé avec le framework Angular',
         site_link: 'https://portfolio.ldesfontaine.me/',
-        github_link: 'https://github.com/ldesfontaine/portfolio-angular',
+        github_link: 'https://github.com/ldesfontaine/Portfolio_',
       },
       {
         imageUrl: '../assets/Image/location.png',
@@ -110,8 +110,8 @@ scrollToId(id: string) {
         imageUrl: '../assets/Image/borabora.png',
         title: 'Borabora',
         description:'Il s’agit d’un un site de gestion d\'hotel',
-        site_link: 'https://garage.ldesfontaine.me/',
-        github_link: 'https://github.com/ldesfontaine/lamp_installer_wp',
+        site_link: 'https://borabora.ldesfontaine.me/',
+        github_link: 'https://github.com/ldesfontaine/borabora',
       },
       {
         imageUrl: '../assets/Image/bash_script.png',
@@ -124,13 +124,13 @@ scrollToId(id: string) {
         imageUrl: 'assets/Image/documentation.jpg',
         title: 'Documentations',
         description:'Il s’agit d’un repository contenant toutes mes documentations',
-        github_link: 'https://github.com/ldesfontaine/lamp_installer_wp',
+        github_link: 'https://github.com/ldesfontaine/Documentation',
       },
       {
         imageUrl: '../assets/Image/crunchytrack.png',
         title: 'CrunchyTrack',
         description:'Il s’agit d’une extension chrome',
-        github_link: 'https://github.com/ldesfontaine/lamp_installer_wp',
+        github_link: 'https://github.com/ldesfontaine/CrunchyTrack',
       },
     ];
 
