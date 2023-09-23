@@ -7,6 +7,7 @@ import { NgModule} from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import {PatrimoineComponent} from "./patrimoine/patrimoine.component";
 import {GithubProjectsComponent} from "./github-projects/github-projects.component";
+import {TableauSyntheseComponent} from "./tableau-synthese/tableau-synthese.component";
 
 const routes: Routes = [
   { path: '', redirectTo:'/home', pathMatch: 'full'},
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: 'bts', component:BtsComponent }, // Laisser début de la liste
   { path: 'patrimoine', component:PatrimoineComponent },
   {path: 'projets',component:GithubProjectsComponent},
+  {path: 'tableau-de-synthses',component:TableauSyntheseComponent},
 
   { path: '**', component: AppComponent, }, // Laisser a la fin de la liste
 ];

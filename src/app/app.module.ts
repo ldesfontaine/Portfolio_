@@ -20,6 +20,7 @@ import {CommonModule, HashLocationStrategy, LocationStrategy} from '@angular/com
 import { PatrimoineComponent } from './patrimoine/patrimoine.component';
 import {GithubProjectsComponent} from "./github-projects/github-projects.component";
 import {HttpClientModule} from "@angular/common/http";
+import { TableauSyntheseComponent } from './tableau-synthese/tableau-synthese.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import {HttpClientModule} from "@angular/common/http";
     ArticleVeilleComponent,
     PatrimoineComponent,
     GithubProjectsComponent,
+    TableauSyntheseComponent,
   ],
   imports: [
     BrowserModule,
