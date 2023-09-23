@@ -75,7 +75,7 @@ scrollToId(id: string) {
       {
         imageUrl: '../assets/Image/dev.png',
         title: 'Répondre aux incidents et demandes d’assistances et d’évolution',
-        description: 'BLABLABLA'
+        description: 'Issue gitlab, github'
       },
       {
         imageUrl: '../assets/Image/dev.png',
