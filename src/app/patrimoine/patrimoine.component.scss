@@ -1,31 +1,37 @@
-#gest_patr, #gest_patr2{
-  height: fit-content;
-  width: fit-content;
+/* Styles pour centrer le contenu et ajouter de la marge */
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 0 auto;
-  #pdf_gest,#pdf_gest2{
-    width: 70vw;
-    height: 100vh;
-  }
-  #synt_patr,synt_patr2{
-
-  }
+  max-width: 800px; /* Choisir la largeur maximale que vous souhaitez */
+  padding: 20px;
 }
 
+/* Style pour le titre h1 */
+.color-white {
+  color: white;
+}
 
-// media query for mobile
-@media screen and (max-width: 600px) {
-  btn-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    width: 100%;
-    height: 100%;
-    #btn_gest,#btn_gest2{
-      width: 100%;
-      height: 100%;
-      margin: 0 auto;
-    }
-  }
+.txt-center {
+  text-align: center;
+}
+
+.fts-42 {
+  font-size: 42px;
+}
+
+/* Style pour le sous-titre h2 */
+.color-purple {
+  color: purple;
+}
+
+/* Style pour le texte paragraphe */
+.color-white {
+  color: white;
+}
+
+/* Style pour le pied de page */
+.mg-t-10 {
+  margin-top: 10px;
 }
