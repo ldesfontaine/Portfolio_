@@ -3,7 +3,7 @@ $background-color: #1A1A29;
 $nav-color: #181824;
 
 body {
-  background-color: $background-color ;
+  background-color: $background-color;
   margin: 0;
   padding: 0;
 }
@@ -17,7 +17,7 @@ body {
 }
 
 .color-white {
-  color:white;
+  color: white;
 }
 
 
@@ -41,12 +41,13 @@ body {
 }
 
 
-.full-btn{
+.full-btn {
   background-color: #7562E0;
   border: 3px solid;
   border-color: #7562E0;
 }
-.empty-btn{
+
+.empty-btn {
   border: 3px solid;
   border-color: #7562E0;
 }
@@ -157,7 +158,6 @@ body {
 }
 
 
-
 .mg-t-5 {
   margin-top: 5vh;
 }
@@ -260,5 +260,27 @@ body {
 
 .mg-t-30 {
   margin-top: 30vh;
+}
+
+#letter-r{
+  display: none;
+}
+
+@media print {
+
+  #app-root {
+    display: none;
+  }
+
+  #letter-r {
+    display: block;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 100em; // Taille de police
+    color: red;     // Couleur rouge
+    background-color: red;
+  }
+
 }
 
