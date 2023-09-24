@@ -1,37 +1,52 @@
 <div class="body">
 
-<h1 class="color-white txt-center fts-42">Veille Technologique</h1>
+  <h1 class="color-white txt-center fts-42">Veille Technologique</h1>
 
 
-<div id="description" class="color-purple fts-22">
-  <h3>Objectif de la veille</h3>
-  <p class="color-white fts-22">
+  <div id="description" class="color-purple fts-22">
+    <h3>Objectif de la veille</h3>
+    <p class="color-white fts-22">
     <span>
       La veille technologique consiste à s’informer en continu sur les nouveautés du secteur, les inventions des concurrents ainsi que les nouvelles technologies et ce dans le but d’être le meilleur de son domaine.
     </span>
-    <span>
+      <span>
       Dans un projet, toute l'équipe doit pouvoir collaborer facilement.
     </span>
-    <span>
+      <span>
       Dans un projet, toute l'équipe doit pouvoir collaborer facilement.
     </span>
-    <span>
+      <span>
       Ils existent de nombreux outils de collaboration telle que Github, Jira, Slack...
     </span>
-    <span>
+      <span>
       Je vais donc vous présenter ses différents outils et leurs avantages et inconvénients.
     </span>
-  </p>
-</div>
+    </p>
+  </div>
 
-<div>
-  <h3 class="color-purple txt-center fts-22 mg-t-20">Cette veille aura comme sujet "Les outils collaboratifs"</h3>
-</div>
+  <div id="description" class="color-purple fts-22">
+    <h3>Outils de veille</h3>
+    <p class="color-white fts-22">
+    <span>
+      J'ai utilisé des outils comme :
+    </span>
+      <span id="image-veille-outil">
+        <img src="assets/Image/feedly.png" alt="Feedly" class="img-feedly">
+        <img src="assets/Image/fluxRss.png" alt="fluxRss" class="img-rss">
+        <img src="assets/Image/chuckchuck.png" alt="chuckytb" class="img-chuck">
+        <img src="assets/Image/undurscore.png" alt="undurscore" class="img-undurscore">
+      </span>
+    </p>
+  </div>
 
-<div id="box-article">
-  <app-article-veille  *ngFor="let article of articles" [articles]="article">
-  </app-article-veille>
-</div>
+  <div>
+    <h3 class="color-purple txt-center fts-22 mg-t-20">Dans cette veille je vais essayer de partager tous les outils ou nouvelle technologie ayant du potentielle selon moi :</h3>
+  </div>
+
+  <div id="box-article">
+    <app-article-veille *ngFor="let article of articles" [articles]="article">
+    </app-article-veille>
+  </div>
 
 </div>
 

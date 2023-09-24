@@ -19,3 +19,29 @@
   }
 
 }
+
+#image-veille-outil{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-around;
+
+  .img-feedly{
+    width: 24vw;
+    height: 24vh;
+  }
+  .img-rss{
+    width: 16vw;
+    height: 24vh;
+  }
+
+  .img-chuck{
+    width: 15vw;
+    height: 28vh;
+  }
+
+  .img-undurscore{
+    width: 15vw;
+    height: 28vh;
+  }
+}
