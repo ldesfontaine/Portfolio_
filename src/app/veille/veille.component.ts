@@ -24,7 +24,7 @@ export class VeilleComponent implements OnInit {
         imageUrl: '../assets/Image/gorilla-cli.png',
         title: 'gorilla-cli c\'est quoi ?',
         description: 'Gorilla CLI simplifie les commandes en ligne en générant des suggestions basées sur votre objectif, supportant 1500 APIs. 🦍',
-        lien: 'https://www.zetoolbox.fr/blog/guide-complet-dutilisation-de-notion-en-video',
+        lien: 'https://github.com/gorilla-llm/gorilla-cli',
       },
       {
         imageUrl: '../assets/Image/coda.png',

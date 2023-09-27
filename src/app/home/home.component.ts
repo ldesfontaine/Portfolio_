@@ -27,7 +27,7 @@ scrollToId(id: string) {
 
   ngOnInit() {
     var typed = new Typed('.multitext', {
-      strings: ['Développeur', 'Codeur', 'Alternant', 'Floppeur'],
+      strings: ['Développeur', 'Codeur', 'Alternant'],
       loop: true,
       typeSpeed: 100,
       backSpeed: 80,
@@ -85,7 +85,7 @@ scrollToId(id: string) {
       {
         imageUrl: '../assets/Image/dev.png',
         title: 'Mettre a disposition des utilisateurs un service informatique',
-        description: 'Création de documentation / wiki'
+        description: 'Création de documentation wiki & mise en place d’un serveur, garage, borabora'
       },
     ];
 
